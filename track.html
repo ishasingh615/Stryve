@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <div>
+    <nav>
+      <ul>
+        <li><a href = "index.html" > Home </a></li>
+        <li><a href = "track.html" > Track Hours </a></li>
+       <li><a href = "find-opportunities.html" > Find Opportunities </a></li>
+      </ul>
+    </nav>
+    </div>
+    
+    <title>Track your Service</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  
+  <body>
+  <h1><center>
+    Track Your Service
+  </center></h1>
+
+  <h2 class="add">
+    <div class="above">
+      <label for="task"> Task </label>
+        <textarea placeholder="Task" rows="4" cols="50" class="task" required></textarea>
+    </div>
+    <div class="below">
+      <label for="description"> Description </label>
+        <textarea placeholder="Brief Description" rows="4" cols="50" id="description" required></textarea>
+    </div>
+  </h2>
+    
+    <h2>How many hours did this take?</h2>
+    
+    <div class="question">
+      
+      <div class="answer-choice">
+        <br>
+        <button id="q1a1"> 1 hr</button>
+      </div>
+      
+      <div class="answer-choice">
+        <br>
+        <button id="q1a2"> 2 hr </button>
+      </div>
+      
+      <div class="answer-choice">
+        <br>
+        <button id="q1a3"> 3 hr</button>
+      </div>
+      
+      <div class="answer-choice">
+        <br>
+        <button id="q1a4"> 4 hr</button>
+      </div>
+    
+       <div class="result">
+         <br>
+         <br>
+         <br>
+         <br>
+      <h2 id="result">Total hours: </h2>
+    </div>
+    
+    </div>
+    
+  </body>
+    </html>
